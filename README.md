@@ -1,6 +1,6 @@
 # CXR-CTSurgery: Deep learning to predict mortality after cardiothoracic surgery using preoperative chest radiographs
 
-![CXR-Age Grad-CAM](/images/GradCAM_Github_020121.png)
+![CXR-Age Grad-CAM](/images/CTSurg_Github.png)
 
 [Raghu VK, Moonsamy P, Sundt TM, Ong CS, Singh S, Cheng A, Hou M, Denning L, Gleason TG, Aguirre AD, Lu MT. Deep learning to predict mortality after cardiothoracic surgery using preoperative chest radiographs. Ann Thorac Surg. 2022 May 21:S0003-4975(22)00722-6. doi: 10.1016/j.athoracsur.2022.04.056. Epub ahead of print. PMID: 35609650.](<https://pubmed.ncbi.nlm.nih.gov/35609650/>)
 
