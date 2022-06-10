@@ -5,6 +5,7 @@
 [Raghu VK, Moonsamy P, Sundt TM, Ong CS, Singh S, Cheng A, Hou M, Denning L, Gleason TG, Aguirre AD, Lu MT. Deep learning to predict mortality after cardiothoracic surgery using preoperative chest radiographs. Ann Thorac Surg. 2022 May 21:S0003-4975(22)00722-6. doi: 10.1016/j.athoracsur.2022.04.056. Epub ahead of print. PMID: 35609650.](<https://pubmed.ncbi.nlm.nih.gov/35609650/>)
 
 ***THIS MODEL IS NOT CURRENTLY INTENDED FOR CLINICAL USE***
+This repo contains data intended to promote reproducible research. It is not for clinical care or commercial use. 
 
 ## Overview
 Decisions to proceed with cardiothoracic surgery require an accurate estimate of risk. Currently, surgery departments rely on the Society of Thoracic Surgeons Predicted Risk of Mortality (STS-PROM) score - a regression model that outputs the probability that a patient will survive a surgical procedure. The STS-PROM score is only applicable to common procedures (e.g., coronary artery bypass, valve surgery) and is cumbersome to use, requiring manual entry of over 60 inputs.
@@ -17,10 +18,6 @@ CXR-CTSurgery was tested in an independent cohort of 3,615 patients undergoing s
 
 Overall, we found that CXR-CTSurgery predicts postoperative mortality based on a CXR image with similar discrimination, but better calibration than STS-PROM. It can be applied to surgeries where the STS-PROM cannot be used.
 
-**Central Illustration of CXR-Age**
-![CXR-Age Central Illustration](/images/Central_Illustration.png)
-
-This repo contains data intended to promote reproducible research. It is not for clinical care or commercial use. 
 
 ## Installation
 This inference code was tested on Ubuntu 18.04.3 LTS, conda version 4.8.0, python 3.7.7, fastai 1.0.61, cuda 10.2, pytorch 1.5.1 and cadene pretrained models 0.7.4. A full list of dependencies is listed in `environment.yml`. 
